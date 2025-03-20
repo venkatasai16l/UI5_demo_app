@@ -63,8 +63,8 @@
         "routing": {
             "config": {
                 "routerClass": "sap.m.routing.Router",
-                "controlAggregation": "pages",
-                "controlId": "app",
+                "controlAggregation": "beginColumnPages",
+                "controlId": "flexibleColumnLayout",
                 "transition": "slide",
                 "type": "View",
                 "viewType": "XML",
@@ -83,8 +83,7 @@
             ],
             "targets": {
                 "TargetView1": {
-                    "id": "View1",
-                    "name": "View1"
+                    "name": "Master"
                 }
             }
         },

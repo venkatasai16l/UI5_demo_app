@@ -1,7 +1,11 @@
-<mvc:View controllerName="demoapp.controller.App"
-    displayBlock="true"
+<mvc:View controllerName="demoapp.controller.App" displayBlock="true"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <App id="app">
-    </App>
-</mvc:View>
+    xmlns:m="sap.m"
+    xmlns="sap.f">
+    <FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid">
+        <beginColumnPages>
+            <m:Text text="sdf"/>
+            <mvc:XMLView viewName="demoapp.view.Master"/>
+        </beginColumnPages>
+    </FlexibleColumnLayout>
+</mvc:View>  

@@ -1,0 +1,14 @@
+<mvc:View controllerName="demoapp.controller.Master"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:f="sap.f"
+  xmlns="sap.m">
+  <f:DynamicPage id="dynamicPageId" toggleHeaderOnTitleClick="false">
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:heading>
+          <Title text="Products"/>
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+  </f:DynamicPage>
+</mvc:View>
